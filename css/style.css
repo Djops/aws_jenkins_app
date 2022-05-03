@@ -1,0 +1,586 @@
+/* fonts  */
+
+/* font-family: 'Lato', sans-serif;
+   font-family: 'Montserrat', sans-serif; */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color      : #414141;
+}
+
+/*  Header */
+
+.section-inner {
+    width         : 1180px;
+    margin        : 0 auto;
+    height        : 100vh;
+    position      : relative;
+    z-index       : 10;
+    display       : flex;
+    flex-direction: column;
+}
+
+.section-header {
+    color          : #ffffff;
+    background     : url("/img/delovaya-etika-pravila-i-normy.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    position       : relative;
+
+
+}
+
+.section-header:before {
+    content         : "";
+    position        : absolute;
+    z-index         : 5;
+    top             : 0;
+    right           : 0;
+    bottom          : 0;
+    left            : 0;
+    background-color: rgba(20, 39, 41, .6);
+}
+
+.section-header-logo {
+    font-weight: bold;
+    font-size  : 24px;
+    flex-shrink: 1;
+    padding-top: 35px;
+}
+
+.section-header-content {
+    flex-grow  : 1;
+    display    : flex;
+    align-items: center;
+}
+
+.section-header-wrapper__title {
+    text-align   : center;
+    font-size    : 56px;
+    line-height  : 60px;
+    font-weight  : bold;
+    margin-bottom: 16px;
+}
+
+.section-header-wrapper__subtitle {
+    text-align    : center;
+    font-size     : 18px;
+    font-weight   : 32px;
+    font-family   : 'Montserrat', sans-serif;
+    padding-bottom: 44px;
+    margin        : 0 auto;
+}
+
+.section-form-header__wrapper {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.section-header-wrapper {
+    margin: 0 auto;
+    width : 900px;
+}
+
+
+
+.section-header-wrapper__form-input input {
+    font-family  : 'Montserrat', sans-serif;
+    border       : none;
+    background   : rgba(255, 255, 255, .25);
+    font-size    : 16px;
+    margin       : 0;
+    padding      : 14px 18px;
+    outline      : none;
+    border-radius: 4px;
+    color        : #ffffff;
+    width        : 350px;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.section-header-wrapper__form-button button {
+    font-family  : 'Montserrat', sans-serif;
+    border       : none;
+    font-size    : 18px;
+    margin       : 0;
+    padding      : 12.5px 18px;
+    background   : linear-gradient(to right, #FE985B, #FE4FA7);
+    outline      : none;
+    cursor       : pointer;
+    border-radius: 4px;
+    color        : #ffffff;
+}
+
+
+/* / Header */
+
+
+
+
+/* Promo */
+
+
+.section-promo {
+    padding-top   : 120px;
+    padding-bottom: 120px;
+}
+
+.section-promo-1 {
+    display: flex;
+}
+
+.title {
+    font-size  : 28px;
+    line-height: 51px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle {
+    font-size  : 18px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-top : 20px;
+}
+
+.text {
+    font-size  : 16px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color      : #6c6c6c;
+    margin-top : 14px;
+}
+
+.section-promo-1__content {
+    flex-basis   : 50%;
+    padding-right: 90px;
+}
+
+
+.section-promo-1__video {
+    flex-basis: 50%;
+}
+
+.section-promo-1__video img {
+    width : 100%;
+    height: auto;
+}
+
+
+.section-promo-2 {
+    display        : flex;
+    padding-top    : 86px;
+    margin-top     : 120px;
+    border-top     : 1px solid #e2e2e2;
+    justify-content: space-between;
+
+}
+
+
+.icon {
+    margin-bottom: 20px;
+    text-align   : center;
+}
+
+
+.title-promo-2 {
+    margin-bottom: 14px;
+    font-size    : 18px;
+    line-height  : 22px;
+    font-weight  : bold;
+    font-family  : 'Montserrat', sans-serif;
+    text-align   : center;
+}
+
+.content {
+    font-size  : 14px;
+    line-height: 27px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color      : #6c6c6c;
+    margin-top : 14px;
+    text-align : center;
+    width      : 365px;
+}
+
+
+/* / Promo */
+
+
+
+
+
+/* Founder */
+
+
+.section-founder {
+    background-color: #f6fafd;
+    padding-top     : 50px;
+}
+
+
+.section-inner__founder {
+    display: flex;
+    width  : 1180px;
+    margin : 0 auto;
+
+
+}
+
+.founder-img {
+    width: 400px;
+}
+
+.section-founder__img {
+    align-self: flex-end;
+    width     : 400px;
+}
+
+.section-founder__content {
+    align-self: center;
+}
+
+.section-founder__content-text {
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 24px;
+    line-height : 40px;
+    padding-left: 50px;
+}
+
+.section-founder__content-name {
+    font-size   : 24px;
+    line-height : 29px;
+    font-weight : bold;
+    padding-left: 50px;
+
+}
+
+
+.section-founder__content-post {
+    font-style  : 20px;
+    line-height : 29px;
+    padding-left: 50px;
+}
+
+/* / Founder */
+
+
+
+
+
+
+/* Plans */
+
+
+.section-plans__list-wrapper {
+    display        : flex;
+    justify-content: center;
+}
+
+.section-plans__list-active {
+    flex-basis      : 370px;
+    padding         : 45px 60px;
+    background-color: #f6fafd;
+}
+
+.section-plans__list {
+    flex-basis: 370px;
+    padding   : 45px 60px;
+}
+
+.section-plans {
+    padding-top: 120px;
+}
+
+.section-plans__title {
+    text-align   : center;
+    font-size    : 36px;
+    line-height  : 51px;
+    font-weight  : bold;
+    margin-bottom: 26px;
+}
+
+
+.section-plans__subtitle {
+    text-align : center;
+    font-size  : 16px;
+    line-height: 28px;
+    font-weight: lighter;
+    width      : 50%;
+    margin     : 0 auto 80px;
+
+}
+
+.prefix {
+    color      : #FE4FA7;
+    font-size  : 72px;
+    line-height: 86px;
+    font-weight: bold;
+    text-align : center;
+}
+
+.posfix {
+    font-size  : 14px;
+    line-height: 17px;
+    font-weight: bold;
+    text-align : center;
+}
+
+.section-plans__list-item-active {
+    background-color: #f6fafd;
+}
+
+
+.section-plans__list-item_title {
+    font-size  : 14px;
+    line-height: 17px;
+    font-weight: bold;
+    text-align : center;
+}
+
+
+.section-plans__list-item_price {
+    margin-bottom: 26px;
+    text-align   : center;
+}
+
+
+.section-plans__list-item_description {
+    font-size    : 16px;
+    line-height  : 28px;
+    font-weight  : lighter;
+    margin-bottom: 40px;
+    text-align   : center;
+    width        : 270px;
+}
+
+
+.section-plans__list-item_button {
+    text-align: center;
+}
+
+
+.btn-active {
+    font-family    : 'Montserrat', sans-serif;
+    border         : none;
+    font-size      : 18px;
+    width          : 200px;
+    padding        : 12.5px 18px;
+    background     : linear-gradient(to right, #FE985B, #FE4FA7);
+    outline        : none;
+    cursor         : pointer;
+    border-radius  : 4px;
+    color          : #ffffff;
+    cursor         : pointer;
+    text-decoration: none;
+
+}
+
+
+.btn-noActive {
+    width           : 200px;
+    background-color: #ffffff;
+    font-family     : 'Montserrat', sans-serif;
+    border          : solid 1px #747474;
+    font-size       : 18px;
+    padding         : 12.5px 18px;
+    cursor          : pointer;
+    outline         : none;
+    cursor          : pointer;
+    border-radius   : 4px;
+    color           : #837f7f;
+    text-decoration : none;
+    font-weight     : lighter;
+}
+
+/* /Plans */
+
+
+
+
+
+
+/*  Free  */
+
+
+.section-free {
+    background : linear-gradient(to right, #FE985B, #FE4FA7);
+    padding-top: 120px;
+
+}
+
+.section-inner__free {
+    width         : 1180px;
+    margin        : 0 auto;
+    position      : relative;
+    z-index       : 10;
+    display       : flex;
+    flex-direction: column;
+}
+
+
+.section-free__title {
+    font-size    : 66px;
+    line-height  : 60px;
+    font-weight  : bold;
+    text-align   : center;
+    margin-bottom: 26px;
+    color        : #ffffff;
+}
+
+.section-free__description {
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 20px;
+    line-height  : 30px;
+    font-weight  : lighter;
+    text-align   : center;
+    width        : 50%;
+    margin       : 0 auto;
+    margin-bottom: 40px;
+}
+
+.section-free__button {
+    width           : 200px;
+    background-color: #ffffff;
+    font-size       : 18px;
+    padding         : 12.5px 18px;
+    cursor          : pointer;
+    outline         : none;
+    cursor          : pointer;
+    border-radius   : 4px;
+    color           : #837f7f;
+    font-weight     : lighter;
+    text-decoration : none;
+    text-align      : center;
+    align-self      : center;
+    margin-bottom   : 120px;
+}
+
+/* /Free  */
+
+
+
+
+
+/* Footer */
+
+.section-inner__footer{
+    width         : 1180px;
+    margin        : 0 auto;
+    position      : relative;
+    display       : flex;
+    flex-direction: column;
+}
+
+.helper-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    font-family  : 'Montserrat', sans-serif;
+    color: #464646;
+    cursor: pointer;
+}
+
+.helper-links li a{
+margin-left: 20px;
+  
+}
+
+
+
+.section-footer {
+    padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+.section-footer__logo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section-footer__nav{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 105px;
+    display        : flex;
+    justify-content: center;
+    margin: 0 0 75px;
+    list-style: none;
+    cursor: pointer;
+}
+
+li .nav_active{
+    color: #FE4FA7 !important;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+
+.section-footer__nav li a{
+    margin-left: 60px;
+}
+
+
+.section-footer__copyright_and_links {
+    display: flex;
+    justify-content: space-between;
+    font-family  : 'Montserrat', sans-serif;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.section-footer__copyright_and_linx-copyright {
+    font-size: 14px;
+}
+
+/* / Footer */
+
+
+
+
+
+
+/* Media  */
+
+
+@media (min-width: 576px){
+
+}
+
+
+
+@media (min-width: 768px){
+
+}
+
+
+
+@media (min-width: 992px){
+
+}
+
+
+
+@media (min-width: 1200px){
+
+}
+
+
+   /* /Media  */
+
